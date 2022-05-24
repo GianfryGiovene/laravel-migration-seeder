@@ -13,4 +13,7 @@ class Train extends Model
      * @var string
      */
     protected $table = 'trains';
+    public function getDateUser(){
+        return date("d/m/Y", strtottime($this->data_ordine));       
+    }
 }
