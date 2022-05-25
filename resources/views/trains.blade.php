@@ -5,11 +5,11 @@
     @foreach ($trains as $train)
         <p>{{ $train['company'] .
             ' _ ' .
-            $train['Departure_Station'] .
+            $train['departure_station'] .
             ' _ ' .
-            $train['Train_Code'] .
+            $train['train_code'] .
             ' _ ' .
-            $train['Departure_Time'] .
+            $train['departure_time'] .
             ' _ ' .
             date('H:i:s') }}
         </p>

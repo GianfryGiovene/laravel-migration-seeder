@@ -25,7 +25,6 @@ class TrainTableSeeder extends Seeder
             $newTrain->is_in_time= $faker->boolean();
             $newTrain->is_deleted= $faker->boolean();
             $newTrain->save();
-
         }
     }
 }
